@@ -43,7 +43,7 @@ app.use(taskRouter)
 // },(error,req,res,next)=>{
 //     res.status(400).send({error:error.message})
 // })
-app.listen(3000,()=>{
+app.listen(port,()=>{
     console.log("server is running at port number ",port)
 })
 // eppudaina async function () ee order lo undali
